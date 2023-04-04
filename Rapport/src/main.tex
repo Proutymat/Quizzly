@@ -1,0 +1,81 @@
+\documentclass[a4paper, 11pt]{article}
+
+\usepackage[utf8]{inputenc}		% LaTeX, comprends les accents !
+\usepackage[T1]{fontenc}      	% Police contenant les caractères français
+\usepackage[french]{babel}  
+\usepackage{float}
+\usepackage{lscape}
+\usepackage{pdflscape}
+\usepackage{mdframed}
+\usepackage{hyperref}
+\usepackage{graphicx}  % pour inclure des images
+
+\usepackage[a4paper,left=2cm,right=2cm, bottom=2.5cm, top=2.5cm]{geometry}% Format de la page, réduction des marges
+\graphicspath{ {./images} }
+
+\AddToHook{cmd/section/before}{\clearpage}
+%\pagestyle{headings}         	% Pour mettre des entêtes avec les titres
+                             	% des sections en haut de page
+
+% Les paramètres du titre : titre, auteur, date
+\title{Projet de programmation}
+\author{Groupe \emph{08}\\
+	\emph{Mateo Avventuriero, Livio Nortes-Bousquet, Hugo Vaillant et Donovann Zassot}\\
+    L2 informatique\\
+  Faculté des Sciences\\
+Université de Montpellier.}
+        
+
+
+\begin{document}
+\vspace*{1cm}
+\centerline{\Huge\bf HAI405I}
+\vspace*{1.5cm}
+\begin{center}              	% pour centrer 
+							
+
+\includegraphics[width=8cm]{logo.png}   % insertion d'une image
+
+
+\end{center}
+\vspace*{1.5cm}
+
+\begin{mdframed}
+\centerline{\Huge Projet de programmation}
+\end{mdframed}
+
+\vspace*{1.5cm}
+
+\noindent{\large\bf Groupe 08 :}
+
+\begin{itemize}
+\item Mateo Avventuriero
+\item Livio Nortes-Bousquet
+\item Hugo Vaillant
+\item Donovann Zassot
+\end{itemize}
+\vspace*{1.5cm}
+
+\begin{center}
+  L2 informatique\\
+  Faculté des Sciences\\
+Université de Montpellier.
+\end{center}
+
+\section{Organisation}
+\input{./chapitres/Organisation}
+
+\section{Cahier des charges}
+\input{./chapitres/CahierDesCharges}
+
+\section{Architecture et choix techniques}
+\input{./chapitres/ChoixTechniques}
+
+\section{Détail}
+\input{./chapitres/Detail}
+
+
+\section{Bilan}
+\input{./chapitres/Bilan}
+
+\end{document}
