@@ -23,15 +23,17 @@ Le projet sauvegarde ses données dans un fichier local .db et y accède via l'A
 | Troisième partie             | Une semaine           | [Lien du sujet de la troisième partie](./Sujets/Sujet_Phase_3.pdf) |
 
 ## Fonctionnalités
+- Ajout de questions fermés avec des propositions de réponses, possibilité de spécifier les réponses correctes.
+- Ajout de questions ouverte avec un affichage des réponses en nuage de mot.
 - Création d'énoncés d'exercices en informatique avec possibilité d'utiliser du markdown, du code, du LaTeX et des graphs mermaid.
-- Ajout de propositions de réponses pour chaque énoncé avec possibilité de spécifier les réponses correctes (sauf pour les questions ouvertes).
 - Attribution d'étiquettes pour chaque question pour faciliter l'organisation et la recherche des énoncés.
 - Regroupement des questions en séquences.
 - Gestion de comptes utilisateurs pour les enseignants et les étudiants, y compris la possibilité pour les enseignants de créer des comptes étudiants à partir d'un fichier CSV.
+- Authentification des utilisateurs et possibilité de modifier leurs profils des étudiants.
 - Diffusion de questions et de séquences en direct pour que les étudiants puissent y répondre en temps réel en utilisant un code d'accès.
 - Enregistrement des réponses des étudiants et consultation des statistiques pour les enseignants.
 - Génération automatique de QCM et de contrôles aléatoires à partir des questions existantes.
-- Authentification des utilisateurs et possibilité de modifier leurs profils des étudiants.
+
 
 
 ## Installation
@@ -77,3 +79,12 @@ Vous pouvez consulter ce rapport sur [GitHub](./Rapport).
 
 Nous avons également créé une vidéo de présentation pour vous donner un aperçu de l'application en action. 
 Cette vidéo est disponible sur [YouTube](https://www.youtube.com/watch?v=ZQjNgWnm5mE).
+
+## :trophy: Prix :trophy:
+
+À la fin du semestre nos professeurs ont décerné des prix aux meilleurs projets, nous les avons tous remportés.
+
+- Prix de la meilleure vidéo de présentation
+- Prix de la meilleure application
+- Prix du meilleur projet
+
