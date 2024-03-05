@@ -1,6 +1,6 @@
 [submodule "frontend"]
 	path = frontend
-	url = https://github.com/J-hune/vueQuizzly.git
+	url = https://github.com/Proutymat/vueQuizzly.git
 [submodule "backend"]
 	path = backend
-	url = https://github.com/J-hune/flaskQuizzly.git
+	url = https://github.com/Proutymat/flaskQuizzly.git
