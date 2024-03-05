@@ -79,12 +79,3 @@ Vous pouvez consulter ce rapport sur [GitHub](./Rapport).
 
 Nous avons également créé une vidéo de présentation pour vous donner un aperçu de l'application en action. 
 Cette vidéo est disponible sur [YouTube](https://www.youtube.com/watch?v=ZQjNgWnm5mE).
-
-## :trophy: Prix :trophy:
-
-À la fin du semestre nos professeurs ont décerné des prix aux meilleurs projets, nous les avons tous remportés.
-
-- Prix de la meilleure vidéo de présentation
-- Prix de la meilleure application
-- Prix du meilleur projet
-
